@@ -1,0 +1,350 @@
+body { 
+	display: flex;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+.c1 {
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+
+.c2 {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.c3 {
+	height: 100%;
+	width: 50%;
+	display: block;
+}
+
+.c4 {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.black {
+	background-color: #000000;
+}
+
+.red {
+	background-color: #FF1400;
+}
+
+.blue {
+	background-color: #0022FF;
+}
+
+.green {
+	background-color: #00FF9E;
+}
+
+.gs1 {
+	background: linear-gradient(124deg, #000000, #FFFFFF);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	
+.gs2 {
+	background: linear-gradient(90deg, #FFFFFF, #000000);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	
+@media only screen and (max-width: 1400px) {
+	.gs1 {
+	background: linear-gradient(124deg, #FA3A17, #16FA99);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	.gs2 {
+	background: linear-gradient(124deg, #16FA99, #FA3A17);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.gs1 {
+	background: linear-gradient(124deg, #958FFA, #FFDD30);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	.gs2 {
+	background: linear-gradient(124deg, #FFDD30, #958FFA);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+}
+
+@media only screen and (max-height: 800px) {
+	.gs1 {
+	background: linear-gradient(124deg, #6DD4FF, #091DB3);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	.gs2 {
+	background: linear-gradient(124deg, #091DB3, #6DD4FF);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+}
+
+@media only screen and (max-height: 600px) {
+	.gs1 {
+	background: linear-gradient(124deg, #FFC66B, #75BFFF);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	.gs2 {
+	background: linear-gradient(124deg, #75BFFF, #FFC66B);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow 2s ease infinite;
+	-z-animation: rainbow 2s ease infinite;
+	-o-animation: rainbow 2s ease infinite;
+	animation: rainbow 2s ease infinite;}
+
+	@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+	@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+	}
+}
